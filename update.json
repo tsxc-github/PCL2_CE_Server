@@ -1,0 +1,11 @@
+{
+    "server": "",
+
+    "latest-slow": "2.10.2",
+    "slow-file": "PCL2_CE.exe",
+    "slow-sha256": "",
+    
+    "latest-fast": "2.10.3",
+    "fast-file": "PCL2_CE_fast.exe",
+    "fast-sha256": ""
+}
