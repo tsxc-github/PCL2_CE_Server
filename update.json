@@ -2,10 +2,17 @@
     "server": "",
 
     "latest-slow": "2.10.2",
+    "latest-slow-code": 357,
     "slow-file": "PCL2_CE.exe",
     "slow-sha256": "",
     
     "latest-fast": "2.10.3",
-    "fast-file": "PCL2_CE_fast.exe",
-    "fast-sha256": ""
+    "latest-fast-code": 358,
+    "fast-file": "PCL2_CE_beta.exe",
+    "fast-sha256": "",
+
+    "latest-legacy": "2.9.5",
+    "latest-legacy-code": 354,
+    "legacy-file": "PCL2_CE_legacy.exe",
+    "legacy-sha256": ""
 }
