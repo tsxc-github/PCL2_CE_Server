@@ -1,0 +1,19 @@
+{
+    "server": "",
+
+    "latests": {
+        "slow": {
+            "version": "2.10.2",
+            "code": 357,
+            "file": "PCL2_CE_Arm64.exe",
+            "sha256": ""
+        },
+
+        "fast": {
+            "version": "2.10.3",
+            "code": 359,
+            "file": "PCL2_CE_beta_Arm64.exe",
+            "sha256": ""
+        }
+    }
+}

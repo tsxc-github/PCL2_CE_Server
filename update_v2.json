@@ -1,0 +1,26 @@
+{
+    "server": "",
+
+    "latests": {
+        "slow": {
+            "version": "2.10.2",
+            "code": 357,
+            "file": "PCL2_CE.exe",
+            "sha256": ""
+        },
+
+        "fast": {
+            "version": "2.10.3",
+            "code": 359,
+            "file": "PCL2_CE_beta.exe",
+            "sha256": ""
+        },
+
+        "legacy": {
+            "version": "2.9.5",
+            "code": 354,
+            "file": "PCL2_CE_legacy.exe",
+            "sha256": ""
+        }
+    }
+}
