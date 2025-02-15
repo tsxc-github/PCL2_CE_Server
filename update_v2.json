@@ -3,8 +3,8 @@
 
     "latests": {
         "slow": {
-            "version": "2.10.2",
-            "code": 357,
+            "version": "2.10.3",
+            "code": 360,
             "file": "PCL2_CE.exe",
             "sha256": ""
         },

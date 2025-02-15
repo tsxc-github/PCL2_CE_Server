@@ -3,16 +3,16 @@
 
     "latests": {
         "slow": {
-            "version": "2.10.2",
-            "code": 357,
-            "file": "PCL2_CE_Arm64.exe",
+            "version": "2.10.3",
+            "code": 360,
+            "file": "PCL2_CE_ARM64.exe",
             "sha256": ""
         },
 
         "fast": {
             "version": "2.10.3",
             "code": 360,
-            "file": "PCL2_CE_beta_Arm64.exe",
+            "file": "PCL2_CE_beta_ARM64.exe",
             "sha256": ""
         }
     }
