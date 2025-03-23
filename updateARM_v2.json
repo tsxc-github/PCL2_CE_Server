@@ -10,9 +10,9 @@
         },
 
         "fast": {
-            "version": "2.10.4",
-            "code": 363,
-            "file": "PCL2_CE_beta_ARM64.exe",
+            "version": "2.10.5",
+            "code": 364,
+            "file": "PCL2_CE_Beta_ARM64.exe",
             "sha256": ""
         }
     }
