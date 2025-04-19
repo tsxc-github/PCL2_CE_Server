@@ -4,12 +4,12 @@
         "slow": {
             "version": "2.10.5",
             "code": 365,
-            "file": "PCL2_CE_x64-sign3600d09a38dc3d6dfeb111a37e4f7a0ae259f49d50db3031d0eb41320d78ca47.exe",
+            "file": "PCL2_CE_x64.exe",
             "sha256": ""
         },
         "fast": {
-            "version": "2.10.6",
-            "code": 366,
+            "version": "2.10.7",
+            "code": 367,
             "file": "PCL2_CE_Beta_x64.exe",
             "sha256": ""
         }
