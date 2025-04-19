@@ -1,6 +1,5 @@
 {
     "server": "",
-
     "latests": {
         "slow": {
             "version": "2.10.5",
@@ -10,8 +9,8 @@
         },
 
         "fast": {
-            "version": "2.10.5",
-            "code": 365,
+            "version": "2.10.6",
+            "code": 366,
             "file": "PCL2_CE_Beta_ARM64.exe",
             "sha256": ""
         }
