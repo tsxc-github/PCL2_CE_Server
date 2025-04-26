@@ -2,8 +2,8 @@
     "server": "",
     "latests": {
         "slow": {
-            "version": "2.10.7",
-            "code": 367,
+            "version": "2.10.5",
+            "code": 365,
             "file": "PCL2_CE_x64.exe",
             "sha256": ""
         },
