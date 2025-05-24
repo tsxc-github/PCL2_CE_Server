@@ -2,14 +2,14 @@
     "server": "",
     "latests": {
         "slow": {
-            "version": "2.10.6",
-            "code": 366,
-            "file": "PCL2_CE_ARM64.exe",
+            "version": "2.11.1",
+            "code": 371,
+            "file": "PCL2_CE_Release_ARM64.exe",
             "sha256": ""
         },
         "fast": {
-            "version": "2.11.1b",
-            "code": 370,
+            "version": "2.11.1",
+            "code": 371,
             "file": "PCL2_CE_Beta_ARM64.exe",
             "sha256": ""
         }
