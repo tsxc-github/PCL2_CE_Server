@@ -1,32 +1,32 @@
 {
     "assets": [
         {
-            "file_name": "1c10fd53d5f506ce864eed074ed3dd50d6ed5d45d7188ca9fb40d982936bb439.zip",
+            "file_name": "fdf4577bf1434d60943ae74209d71bb3687d0ff172de84db360d27919f442666.zip",
             "version": {
                 "channel": "frarm64",
-                "name": "2.11.2-beta.1",
-                "code": 371
+                "name": "2.11.2-beta.3",
+                "code": 373
             },
-            "upd_time": "2025-05-25 02:49:50",
+            "upd_time": "2025-06-03 07:27:12",
             "downloads": [
-                "https://github.com/PCL-Community/PCL2_CE_Server/raw/refs/heads/main/assets/1c10fd53d5f506ce864eed074ed3dd50d6ed5d45d7188ca9fb40d982936bb439.zip"
+                "https://github.com/PCL-Community/PCL2_CE_Server/raw/refs/heads/main/assets/fdf4577bf1434d60943ae74209d71bb3687d0ff172de84db360d27919f442666.zip"
             ],
-            "sha256": "3c92d978ecbcc89ac352864cc415ab645a600cd955601c20e0126f884dcbb094",
-            "changelog": ""
+            "sha256": "5feb590df9b38b582afbff14ebcb03bffe74aa2962a8a8dd11206b31bd5af4d6",
+            "changelog": "**此版本基于主线版本 2.10.1**\n\n---\n\n## 新功能\n\n- 允许导入导出全局配置文件 ( @wyc-26 )\n\n## 优化\n\n- 尝试暂时隐藏导入导出设置按钮，虽然改回来的，但是感谢贡献啦~ (@xrlzu / #707 )\n- 第三方登录修改皮肤功能直接跳转到对应网站 (@xrlzu / #712 )\n- 优化配色系统，提高深色模式下视觉体验 (@ruattd / #720 )\n- SMTC 展示更多音乐信息 (@tangge233 / #718 )\n- 给瞅眼服务器加入 §k 的支持 (@MinecraftYJQ / #761 )\n- 瞅眼服务器 UI 及功能改进 (@ruattd ,@PhantomPixel-0418 / #760 ,#758 )\n\n## 修复\n\n- LabyMod 的无法下载，启动异常，修改异常等问题 (@tangge233 ,@magojohnji ,@CJeszz ,@BiliBiliSystem404 / #714 ,#694 ,#601 ,#598 )\n- 第三方启动失败 (@tangge233 ,@XiaoQiAWA / #711 ,#705 )\n- 可能会在获取到更新信息之前检查启动器最新版本信息 (@tangge233 ,@zhangzihan114514 / #735 ,#728 )\n- 深色模式的各种异常 (@ruattd ,@IKUN05648 ,@CreeperIsASpy ,@written143 / #736 ,#745, #715 ,#507 ,#490 )\n- 资源排序比较没有考虑相同的时间的情况 (@tangge233 ,@donotmelon / #725 ,#704 )\n- 档案部分字段没有使用 McLoginType 枚举导致报错 (@tangge233 ,@chenyouting1 / #722 ,#716 )\n\n## 技术性改动\n\n- 通过比对 SemVer 判断更新而不是直接比较字符串 ( @tangge233 )\n- 提升调试体验 (@ruattd / #717 )\n- 同步上游代码 (@shimoranla / #731 ,#732 )\n- 加入新的更新源 (@tangge233 / #729 )\n\n---\n\n[如果你有 Mirror 酱 CDK 可以直接使用此高速下载源](https://mirrorchyan.com/zh/projects?rid=PCL2-CE&source=gh-release)\n你也可以直接在下方的 Assets 中下载"
         },
         {
-            "file_name": "9c9014cd4df2aa2c94e78c270f7dd4fd7fdb1a982965cbdf13499b4c26f40efd.zip",
+            "file_name": "c5a5d6cd7793337e0509c24d4cafa6f96b8e16be5c7694485776c555fec5791f.zip",
             "version": {
                 "channel": "frx64",
-                "name": "2.11.2-beta.1",
-                "code": 371
+                "name": "2.11.2-beta.3",
+                "code": 373
             },
-            "upd_time": "2025-05-25 02:49:52",
+            "upd_time": "2025-06-03 07:29:06",
             "downloads": [
-                "https://github.com/PCL-Community/PCL2_CE_Server/raw/refs/heads/main/assets/9c9014cd4df2aa2c94e78c270f7dd4fd7fdb1a982965cbdf13499b4c26f40efd.zip"
+                "https://github.com/PCL-Community/PCL2_CE_Server/raw/refs/heads/main/assets/c5a5d6cd7793337e0509c24d4cafa6f96b8e16be5c7694485776c555fec5791f.zip"
             ],
-            "sha256": "48f1b57d4d973f658e88b83b0ec9b9c5181f667b53cc74126f07029b20b24691",
-            "changelog": ""
+            "sha256": "8f1121d616bb5dea29d7eb9cba0ca01908c33b2af42452fd0d81580d10459459",
+            "changelog": "**此版本基于主线版本 2.10.1**\n\n---\n\n## 新功能\n\n- 允许导入导出全局配置文件 ( @wyc-26 )\n\n## 优化\n\n- 尝试暂时隐藏导入导出设置按钮，虽然改回来的，但是感谢贡献啦~ (@xrlzu / #707 )\n- 第三方登录修改皮肤功能直接跳转到对应网站 (@xrlzu / #712 )\n- 优化配色系统，提高深色模式下视觉体验 (@ruattd / #720 )\n- SMTC 展示更多音乐信息 (@tangge233 / #718 )\n- 给瞅眼服务器加入 §k 的支持 (@MinecraftYJQ / #761 )\n- 瞅眼服务器 UI 及功能改进 (@ruattd ,@PhantomPixel-0418 / #760 ,#758 )\n\n## 修复\n\n- LabyMod 的无法下载，启动异常，修改异常等问题 (@tangge233 ,@magojohnji ,@CJeszz ,@BiliBiliSystem404 / #714 ,#694 ,#601 ,#598 )\n- 第三方启动失败 (@tangge233 ,@XiaoQiAWA / #711 ,#705 )\n- 可能会在获取到更新信息之前检查启动器最新版本信息 (@tangge233 ,@zhangzihan114514 / #735 ,#728 )\n- 深色模式的各种异常 (@ruattd ,@IKUN05648 ,@CreeperIsASpy ,@written143 / #736 ,#745, #715 ,#507 ,#490 )\n- 资源排序比较没有考虑相同的时间的情况 (@tangge233 ,@donotmelon / #725 ,#704 )\n- 档案部分字段没有使用 McLoginType 枚举导致报错 (@tangge233 ,@chenyouting1 / #722 ,#716 )\n\n## 技术性改动\n\n- 通过比对 SemVer 判断更新而不是直接比较字符串 ( @tangge233 )\n- 提升调试体验 (@ruattd / #717 )\n- 同步上游代码 (@shimoranla / #731 ,#732 )\n- 加入新的更新源 (@tangge233 / #729 )\n\n---\n\n[如果你有 Mirror 酱 CDK 可以直接使用此高速下载源](https://mirrorchyan.com/zh/projects?rid=PCL2-CE&source=gh-release)\n你也可以直接在下方的 Assets 中下载"
         },
         {
             "file_name": "08df12328d33c6316a1f17016f1d18bb2aa8854ac9b4513710f125fb82acb93b.zip",
