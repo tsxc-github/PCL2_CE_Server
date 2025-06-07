@@ -72,14 +72,14 @@ def update_source_cache_file(source_name: str):
         )
     print(f"更新源 {source_name} 的缓存文件已更新，存储在 {current_source_api_folder.joinpath('cache.json').as_posix()}")
 
-def start_release_file_process(file_path: Path):
+def start_release_file_process(file_path: Path,skip_check: bool = False):
     print("----开始处理发版文件----")
     print("请确认发版信息：")
     for i in release_config.version:
         for j in i.channel_main_name.items():
             display_channel_name = j[1]
             print(f" - 渠道: {display_channel_name}, 版本号: {i.version_name}({i.version_code})")
-    if input("信息是否正确(Y/N)\n> ").strip().lower() != "y":
+    if skip_check==False and input("信息是否正确(Y/N)\n> ").strip().lower() != "y":
         print("请填入正确的发版信息后重新启动程序")
         return
     print("获取发版文件列表中……")
@@ -202,18 +202,24 @@ def start_announcement_file_process():
         update_source_cache_file(source.name)
     print("公告文件处理完成")
 
-def main():
+def main(ci: bool = False):
     global release_config
     init()
     while (True):
-        c = input("----选择操作----\n1. 处理发版文件\n2. 处理公告文件\n3. 上传到服务器(暂时不可用)\nq. 退出\n> ").strip().lower()
+        if ci:
+            print("----CI模式运行中----")
+            c="3"
+        else:
+            c = input("----选择操作----\n1. 处理发版文件\n2. 处理公告文件\n3. 上传到服务器(暂时不可用)\nq. 退出\n> ").strip().lower()
+        
         if c == "1":
             start_release_file_process(consts.RELEASE_FILE_FOLDER)
         elif c == "2":
             start_announcement_file_process()
         elif c == "3":
-            # TODO
-            print("上传到服务器(暂时不可用)")
+            start_release_file_process(consts.RELEASE_FILE_FOLDER,True)
+            start_announcement_file_process()
+            break
         elif c == "q":
             print("退出程序")
             break
