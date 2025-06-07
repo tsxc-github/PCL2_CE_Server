@@ -4,3 +4,4 @@ urllib3
 typing
 datetime
 uuid
+colorama
