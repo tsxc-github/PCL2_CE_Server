@@ -2,11 +2,6 @@ name: Build
 
 on:
   workflow_dispatch:
-    inputs:
-      branch:
-        description: 'Branch to build'
-        required: true
-        default: 'main'
 
 jobs:
   build:
@@ -24,8 +19,6 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: 3.11
-          cache: 'pip'
-          cache-dependency-path: requirements.txt
       
       - name: Install dependencies
         run: |
