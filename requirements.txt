@@ -3,5 +3,4 @@ pydantic
 urllib3
 typing
 datetime
-json
 uuid
