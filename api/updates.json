@@ -1,17 +1,45 @@
 {
     "assets": [
         {
+            "file_name": "495a68dab0387b94aa0e788f178780c4c7246c629ac8ff58a6c95177749cef04.zip",
+            "version": {
+                "channel": "srarm64",
+                "name": "v0.0.1",
+                "code": 2
+            },
+            "upd_time": "2025-06-08 15:32:05",
+            "downloads": [
+                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/495a68dab0387b94aa0e788f178780c4c7246c629ac8ff58a6c95177749cef04.zip"
+            ],
+            "sha256": "2e222bb8fd0073d088c51f24b00bf11ddca6b6a83995f59ec6dd078fc986603e",
+            "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.1-beta.2...v0.0.1"
+        },
+        {
+            "file_name": "a9dd20438362c4d016d5f88c11f7f85cdb70c4a5bc65285fa31f973045eb7f58.zip",
+            "version": {
+                "channel": "srx64",
+                "name": "v0.0.1",
+                "code": 2
+            },
+            "upd_time": "2025-06-08 15:32:05",
+            "downloads": [
+                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/a9dd20438362c4d016d5f88c11f7f85cdb70c4a5bc65285fa31f973045eb7f58.zip"
+            ],
+            "sha256": "16c9fd4cee7e00d065d63189fb2e8e8f0da9f13258654594376dbd5daf6a74ad",
+            "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.1-beta.2...v0.0.1"
+        },
+        {
             "file_name": "f3db630f5ade5adc4278df98aa5dd7a0f2b02f4ace5e30b78e642b7791b82d65.zip",
             "version": {
                 "channel": "frarm64",
                 "name": "v0.0.1-beta.2",
                 "code": 1
             },
-            "upd_time": "2025-06-08 15:19:57",
+            "upd_time": "2025-06-08 15:32:06",
             "downloads": [
                 "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/f3db630f5ade5adc4278df98aa5dd7a0f2b02f4ace5e30b78e642b7791b82d65.zip"
             ],
-            "sha256": "894e92a7aca77ed677c484a64eb8d9f83e1ba691f2842e3249ad542ec2d32416",
+            "sha256": "4281d99e7253b20d7518d72945e477b1c4315441d7533022c0daa1aedf19c6a7",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v.0.0.1-beta.1...v0.0.1-beta.2"
         },
         {
@@ -21,11 +49,11 @@
                 "name": "v0.0.1-beta.2",
                 "code": 1
             },
-            "upd_time": "2025-06-08 15:19:57",
+            "upd_time": "2025-06-08 15:32:06",
             "downloads": [
                 "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/90b300457d658bece230fe2de62f690c8d2f40a769ec2beeb9a0fa598e3ac567.zip"
             ],
-            "sha256": "dc96acf46a3354252a53b64b900d834faa24955b6e583d4d1283f076688a66ea",
+            "sha256": "8c9ea301f17943180fd528ea150d8e96aa20b443729cc2f7981a91bd824a4c68",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v.0.0.1-beta.1...v0.0.1-beta.2"
         }
     ]
