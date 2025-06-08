@@ -7,7 +7,7 @@ import shutil
 os.system("""curl -L \
     -H "Accept: application/vnd.github+json" \
     -H "X-GitHub-Api-Version: 2022-11-28" \
-    https://api.github.com/repos/PCL-Community/PCL2-CE/releases \
+    https://api.github.com/repos/tsxc-github/PCL2-CE/releases \
     > release.json""")
 
 channel_rules={
@@ -72,8 +72,12 @@ def get_asset(prerelease: bool = False):
             )
             if prerelease:
                 channel_rules["version"][-1]["channel_main_name"]["fr"] = "Beta"
+                with open("./.data/fr_changelog.md", "w", encoding="utf-8") as f:
+                    f.write(release["body"])
             else:
                 channel_rules["version"][-1]["channel_main_name"]["sr"] = "Release"
+                with open("./.data/sr_changelog.md", "w", encoding="utf-8") as f:
+                    f.write(release["body"])
                     
             with open("./.data/channel_rules.json", "w", encoding="utf-8") as f:
                 f.write(json.dumps(channel_rules, ensure_ascii=False, indent=4))
