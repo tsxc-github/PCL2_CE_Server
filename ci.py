@@ -1,12 +1,26 @@
 import main
 import os
 import json
+import re
+import shutil
 
 os.system("""curl -L \
     -H "Accept: application/vnd.github+json" \
     -H "X-GitHub-Api-Version: 2022-11-28" \
-    https://api.github.com/repos/Hex-Dragon/PCL2/releases \
+    
+    https://api.github.com/repos/PCL-Community/PCL2-CE/releases \
     > release.json""")
+
+channel_rules={
+    "version":[],
+    "sources": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main"
+        }
+    ],
+    "file_name": "Plain Craft Launcher Community Edition.exe"
+}
 
 def get_asset(prerelease: bool = False):
     json_data = json.load(open("release.json", "r", encoding="utf-8"))
@@ -21,12 +35,58 @@ def get_asset(prerelease: bool = False):
                     curl -L \
                     -H "Accept: application/vnd.github+json" \
                     -H "X-GitHub-Api-Version: 2022-11-28" \
+                    
                     {asset["browser_download_url"]} \
                     > ./.data/release/{asset["name"]}
                 """)
+                
+            os.system(f"""
+                curl -L \
+                -H "Accept: application/vnd.github+json" \
+                -H "X-GitHub-Api-Version: 2022-11-28" \
+                
+                {release["tarball_url"]} \
+                > code.tar.gz
+            """)
+
+            os.system("mkdir code")
+            os.system("tar -xzf code.tar.gz -C ./code")
+            folders = [entry for entry in os.listdir("./code") if os.path.isdir("./code/"+entry)]
+            code=open("./code/"+folders[0]+"/Plain Craft Launcher 2/Modules/Base/ModBase.vb","r",encoding="utf-8").read()
+            shutil.rmtree("./code")
+            
+            pattern = r"Public Const VersionCode As Integer = \d+ '内部版本号"
+            re.search(pattern, code)
+            version_code = re.search(pattern, code).group(0)
+            version_code = int(re.search(r"\d+", version_code).group(0))
+            print(f" - Version Code: {version_code}")
+            
+            channel_rules["version"].append(
+                {
+                    "channel_main_name": {
+                    },
+                    "channel_sub_name": {
+                        "arm64":"ARM64",
+                        "x64":"x64",
+                    },
+                    "version_name":f"{release["name"]}",
+                    "version_code": version_code
+                }
+            )
+            if prerelease:
+                channel_rules["version"][-1]["channel_main_name"]["fr"] = "Beta"
+            else:
+                channel_rules["version"][-1]["channel_main_name"]["sr"] = "Release"
+                    
+            with open("./.data/channel_rules.json", "w", encoding="utf-8") as f:
+                f.write(json.dumps(channel_rules, ensure_ascii=False, indent=4))
+            print("Channel rules updated successfully.")
+            
+            
             print("\n")
             break
-    if prerelease:
+    
+    if prerelease == False:
         get_asset(prerelease=True)
     
 get_asset()
