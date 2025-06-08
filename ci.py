@@ -7,7 +7,6 @@ import shutil
 os.system("""curl -L \
     -H "Accept: application/vnd.github+json" \
     -H "X-GitHub-Api-Version: 2022-11-28" \
-    
     https://api.github.com/repos/PCL-Community/PCL2-CE/releases \
     > release.json""")
 
@@ -35,7 +34,6 @@ def get_asset(prerelease: bool = False):
                     curl -L \
                     -H "Accept: application/vnd.github+json" \
                     -H "X-GitHub-Api-Version: 2022-11-28" \
-                    
                     {asset["browser_download_url"]} \
                     > ./.data/release/{asset["name"]}
                 """)
@@ -44,7 +42,6 @@ def get_asset(prerelease: bool = False):
                 curl -L \
                 -H "Accept: application/vnd.github+json" \
                 -H "X-GitHub-Api-Version: 2022-11-28" \
-                
                 {release["tarball_url"]} \
                 > code.tar.gz
             """)
