@@ -7,11 +7,11 @@
                 "name": "v0.0.1",
                 "code": 2
             },
-            "upd_time": "2025-06-09 11:15:30",
+            "upd_time": "2025-06-09 11:31:39",
             "downloads": [
                 "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/495a68dab0387b94aa0e788f178780c4c7246c629ac8ff58a6c95177749cef04.zip"
             ],
-            "sha256": "340993f9ad39790cdb3c261030e2877cf51e06b34dd7e67313aa3c149e887473",
+            "sha256": "b1f962776b10ef8846b274b71caccff0dc602ae890e8003e0a91e93d3b78b966",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.1-beta.2...v0.0.1"
         },
         {
@@ -21,11 +21,11 @@
                 "name": "v0.0.1",
                 "code": 2
             },
-            "upd_time": "2025-06-09 11:15:30",
+            "upd_time": "2025-06-09 11:31:39",
             "downloads": [
                 "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/a9dd20438362c4d016d5f88c11f7f85cdb70c4a5bc65285fa31f973045eb7f58.zip"
             ],
-            "sha256": "e2ab4115a3ffeae0cc982b137902756666a42317967902eb204979bc55e3555c",
+            "sha256": "2367f8c40ad637d1d9bb0c67ef13333d5062773d0e1cb9a86ac5e55a52fadd68",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.1-beta.2...v0.0.1"
         },
         {
@@ -35,11 +35,11 @@
                 "name": "v0.0.2-beta.1",
                 "code": 3
             },
-            "upd_time": "2025-06-09 11:15:31",
+            "upd_time": "2025-06-09 11:31:40",
             "downloads": [
                 "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/4c447fa6cccb088b346783d73c3472245da872bf13b69c58a44e21150e242f41.zip"
             ],
-            "sha256": "d24dc746f84c31d1be61d9552c7a378d1b7bb56795a587ff2017e157fd4bb64e",
+            "sha256": "61b6a88858b007a405f826283f5164f5ec35ad726f3a894904d871c098608728",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.1...v0.0.2-beta.1"
         },
         {
@@ -49,11 +49,11 @@
                 "name": "v0.0.2-beta.1",
                 "code": 3
             },
-            "upd_time": "2025-06-09 11:15:32",
+            "upd_time": "2025-06-09 11:31:40",
             "downloads": [
                 "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/9c1074fa18ae7b98ddd737e508e3bd89e41fa0bb784997c41febfd4492dad79c.zip"
             ],
-            "sha256": "484915aaed27cbbc3d6e0b12cea91a38262ae19586c4b0be597ecb9f6b42c299",
+            "sha256": "dab4ba96375abc1f222dd1b73da7acdb5f288cee01b53bc17396e4c1cd116419",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.1...v0.0.2-beta.1"
         }
     ]
