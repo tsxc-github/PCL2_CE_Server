@@ -14,6 +14,14 @@ channel_rules={
     "version":[],
     "sources": [
         {
+            "name": "edgeone",
+            "url": "https://edgeone.update.pcl.mzmcos.tsxc.xyz/"
+        },
+        {
+            "name": "CloudFlare",
+            "url": "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/"
+        },
+        {
             "name": "GitHub",
             "url": "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main"
         }
