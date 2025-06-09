@@ -1,0 +1,60 @@
+{
+    "assets": [
+        {
+            "file_name": "495a68dab0387b94aa0e788f178780c4c7246c629ac8ff58a6c95177749cef04.zip",
+            "version": {
+                "channel": "srarm64",
+                "name": "v0.0.1",
+                "code": 2
+            },
+            "upd_time": "2025-06-09 11:31:39",
+            "downloads": [
+                "https://edgeone.update.pcl.mzmcos.tsxc.xyz//assets/495a68dab0387b94aa0e788f178780c4c7246c629ac8ff58a6c95177749cef04.zip"
+            ],
+            "sha256": "b1f962776b10ef8846b274b71caccff0dc602ae890e8003e0a91e93d3b78b966",
+            "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.1-beta.2...v0.0.1"
+        },
+        {
+            "file_name": "a9dd20438362c4d016d5f88c11f7f85cdb70c4a5bc65285fa31f973045eb7f58.zip",
+            "version": {
+                "channel": "srx64",
+                "name": "v0.0.1",
+                "code": 2
+            },
+            "upd_time": "2025-06-09 11:31:39",
+            "downloads": [
+                "https://edgeone.update.pcl.mzmcos.tsxc.xyz//assets/a9dd20438362c4d016d5f88c11f7f85cdb70c4a5bc65285fa31f973045eb7f58.zip"
+            ],
+            "sha256": "2367f8c40ad637d1d9bb0c67ef13333d5062773d0e1cb9a86ac5e55a52fadd68",
+            "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.1-beta.2...v0.0.1"
+        },
+        {
+            "file_name": "4c447fa6cccb088b346783d73c3472245da872bf13b69c58a44e21150e242f41.zip",
+            "version": {
+                "channel": "frarm64",
+                "name": "v0.0.2-beta.1",
+                "code": 3
+            },
+            "upd_time": "2025-06-09 11:31:40",
+            "downloads": [
+                "https://edgeone.update.pcl.mzmcos.tsxc.xyz//assets/4c447fa6cccb088b346783d73c3472245da872bf13b69c58a44e21150e242f41.zip"
+            ],
+            "sha256": "61b6a88858b007a405f826283f5164f5ec35ad726f3a894904d871c098608728",
+            "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.1...v0.0.2-beta.1"
+        },
+        {
+            "file_name": "9c1074fa18ae7b98ddd737e508e3bd89e41fa0bb784997c41febfd4492dad79c.zip",
+            "version": {
+                "channel": "frx64",
+                "name": "v0.0.2-beta.1",
+                "code": 3
+            },
+            "upd_time": "2025-06-09 11:31:40",
+            "downloads": [
+                "https://edgeone.update.pcl.mzmcos.tsxc.xyz//assets/9c1074fa18ae7b98ddd737e508e3bd89e41fa0bb784997c41febfd4492dad79c.zip"
+            ],
+            "sha256": "dab4ba96375abc1f222dd1b73da7acdb5f288cee01b53bc17396e4c1cd116419",
+            "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.1...v0.0.2-beta.1"
+        }
+    ]
+}
