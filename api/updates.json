@@ -1,32 +1,32 @@
 {
     "assets": [
         {
-            "file_name": "9a03ccbd01fc6abd63056532edb77497a0bfc3bdb79091fce34bd1e6bfb3c695.zip",
+            "file_name": "1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6.zip",
             "version": {
                 "channel": "srarm64",
-                "name": "v0.0.2",
-                "code": 4
+                "name": "v0.0.3",
+                "code": 5
             },
-            "upd_time": "2025-06-12 09:55:24",
+            "upd_time": "2025-06-13 12:39:07",
             "downloads": [
-                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/9a03ccbd01fc6abd63056532edb77497a0bfc3bdb79091fce34bd1e6bfb3c695.zip"
+                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6.zip"
             ],
-            "sha256": "aaa4b51f6c49a85b88128e08b8692a43ea0c28cca164adc6eabd6148d1c5c729",
-            "changelog": "一个正式可用的版本！加入了API keys\n**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/2.11.5...v0.0.2"
+            "sha256": "407d8a980aec4a8cc4f897e16533cdf8a39f6f4b4ffed645340f00baae60bcbf",
+            "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
         },
         {
-            "file_name": "bf8f4673042913598c7f55ccae9b4f677b96af279971bb2a0237546bc5eea36a.zip",
+            "file_name": "fe39e3f7099e579990cd787a6415faf1b59b9db38dcca3c385822583fc3b8de4.zip",
             "version": {
                 "channel": "srx64",
-                "name": "v0.0.2",
-                "code": 4
+                "name": "v0.0.3",
+                "code": 5
             },
-            "upd_time": "2025-06-12 09:55:25",
+            "upd_time": "2025-06-13 12:39:08",
             "downloads": [
-                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/bf8f4673042913598c7f55ccae9b4f677b96af279971bb2a0237546bc5eea36a.zip"
+                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/fe39e3f7099e579990cd787a6415faf1b59b9db38dcca3c385822583fc3b8de4.zip"
             ],
-            "sha256": "51c4a3d3eaeef453bf03a726a64f959a7ae218192771ce6de1d5a2c413238310",
-            "changelog": "一个正式可用的版本！加入了API keys\n**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/2.11.5...v0.0.2"
+            "sha256": "9b05873b1c9624dc65b7aa94919b83631a19e303fe84facb5d767a455faf8597",
+            "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
         },
         {
             "file_name": "4c447fa6cccb088b346783d73c3472245da872bf13b69c58a44e21150e242f41.zip",
@@ -35,11 +35,11 @@
                 "name": "v0.0.2-beta.1",
                 "code": 3
             },
-            "upd_time": "2025-06-12 09:55:26",
+            "upd_time": "2025-06-13 12:39:08",
             "downloads": [
                 "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/4c447fa6cccb088b346783d73c3472245da872bf13b69c58a44e21150e242f41.zip"
             ],
-            "sha256": "4c69bcef91bdcb414883c2c19436fe3c842e38dd93dfe4861612a3a0bb469bcb",
+            "sha256": "02b8009d48a90099d148bdf01b38f364e5fddbd2249ac5ebff881d23c7845288",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.1...v0.0.2-beta.1"
         },
         {
@@ -49,11 +49,11 @@
                 "name": "v0.0.2-beta.1",
                 "code": 3
             },
-            "upd_time": "2025-06-12 09:55:26",
+            "upd_time": "2025-06-13 12:39:09",
             "downloads": [
                 "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/9c1074fa18ae7b98ddd737e508e3bd89e41fa0bb784997c41febfd4492dad79c.zip"
             ],
-            "sha256": "a3c8d50e5a20706d959ca8101967bf2efbaf8a302e287b1bafc587d7ecbefdcf",
+            "sha256": "d25a1c29a6d588525635c2ceb537f7dc1ae72ad1af104bd67e050634a8ca9359",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.1...v0.0.2-beta.1"
         }
     ]
