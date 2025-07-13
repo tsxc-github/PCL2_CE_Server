@@ -7,11 +7,11 @@
                 "name": "v0.0.3",
                 "code": 5
             },
-            "upd_time": "2025-06-13 12:39:07",
+            "upd_time": "2025-07-13 13:56:27",
             "downloads": [
                 "https://cloudflare.update.pcl.mzmcos.tsxc.xyz//assets/1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6.zip"
             ],
-            "sha256": "407d8a980aec4a8cc4f897e16533cdf8a39f6f4b4ffed645340f00baae60bcbf",
+            "sha256": "54fe3d9d1c0bda2b9098c639079accdc2fc58b246e5f48d27492e0ed342d1c1d",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
         },
         {
@@ -21,40 +21,40 @@
                 "name": "v0.0.3",
                 "code": 5
             },
-            "upd_time": "2025-06-13 12:39:08",
+            "upd_time": "2025-07-13 13:56:28",
             "downloads": [
                 "https://cloudflare.update.pcl.mzmcos.tsxc.xyz//assets/fe39e3f7099e579990cd787a6415faf1b59b9db38dcca3c385822583fc3b8de4.zip"
             ],
-            "sha256": "9b05873b1c9624dc65b7aa94919b83631a19e303fe84facb5d767a455faf8597",
+            "sha256": "b44c6edbdfcd818140bb0b6c76332226152568307924f3abc478556b7a7049cf",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
         },
         {
-            "file_name": "4c447fa6cccb088b346783d73c3472245da872bf13b69c58a44e21150e242f41.zip",
+            "file_name": "dda93bf056d5d24513a74177afd3a7cfd80bc99a6c510b2e4996192c8888d25b.zip",
             "version": {
                 "channel": "frarm64",
-                "name": "v0.0.2-beta.1",
-                "code": 3
+                "name": "0.1.0-beta.1",
+                "code": 6
             },
-            "upd_time": "2025-06-13 12:39:08",
+            "upd_time": "2025-07-13 13:56:30",
             "downloads": [
-                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz//assets/4c447fa6cccb088b346783d73c3472245da872bf13b69c58a44e21150e242f41.zip"
+                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz//assets/dda93bf056d5d24513a74177afd3a7cfd80bc99a6c510b2e4996192c8888d25b.zip"
             ],
-            "sha256": "02b8009d48a90099d148bdf01b38f364e5fddbd2249ac5ebff881d23c7845288",
-            "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.1...v0.0.2-beta.1"
+            "sha256": "f840e24083407670bb94ef235ec6710bcaea8acd3f64bc57f61e4c3c0bdfaa65",
+            "changelog": "### &nbsp;&nbsp;&nbsp;🚨 破坏性改动\n\n- 合并上游更新 Merge commit '22e7a2585bb9accf27a1e513715c6e2d5b826b2e' into mzmc &nbsp;-&nbsp; by @tsxc-github [<samp>(1c868)</samp>](https://github.com/tsxc-github/PCL2-CE/commit/1c868413)\n- \"feat(Update): 支持增量更新\" &nbsp;-&nbsp; by @tsxc-github [<samp>(76a27)</samp>](https://github.com/tsxc-github/PCL2-CE/commit/76a27aaa)\n\n##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/tsxc-github/PCL2-CE/compare/v0.0.3...0.1.0-beta.1)"
         },
         {
-            "file_name": "9c1074fa18ae7b98ddd737e508e3bd89e41fa0bb784997c41febfd4492dad79c.zip",
+            "file_name": "65d23e2d8d494862d0dbc4e95ae8c4c6d16b841970e9a821910a905c64e54968.zip",
             "version": {
                 "channel": "frx64",
-                "name": "v0.0.2-beta.1",
-                "code": 3
+                "name": "0.1.0-beta.1",
+                "code": 6
             },
-            "upd_time": "2025-06-13 12:39:09",
+            "upd_time": "2025-07-13 13:56:31",
             "downloads": [
-                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz//assets/9c1074fa18ae7b98ddd737e508e3bd89e41fa0bb784997c41febfd4492dad79c.zip"
+                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz//assets/65d23e2d8d494862d0dbc4e95ae8c4c6d16b841970e9a821910a905c64e54968.zip"
             ],
-            "sha256": "d25a1c29a6d588525635c2ceb537f7dc1ae72ad1af104bd67e050634a8ca9359",
-            "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.1...v0.0.2-beta.1"
+            "sha256": "fc97ce2a7b9ffb22fb2f5ddc4bc2bab1f15778ad80ce617af4ff8c9ca3d4e83c",
+            "changelog": "### &nbsp;&nbsp;&nbsp;🚨 破坏性改动\n\n- 合并上游更新 Merge commit '22e7a2585bb9accf27a1e513715c6e2d5b826b2e' into mzmc &nbsp;-&nbsp; by @tsxc-github [<samp>(1c868)</samp>](https://github.com/tsxc-github/PCL2-CE/commit/1c868413)\n- \"feat(Update): 支持增量更新\" &nbsp;-&nbsp; by @tsxc-github [<samp>(76a27)</samp>](https://github.com/tsxc-github/PCL2-CE/commit/76a27aaa)\n\n##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/tsxc-github/PCL2-CE/compare/v0.0.3...0.1.0-beta.1)"
         }
     ]
 }
