@@ -7,11 +7,11 @@
                 "name": "v0.0.3",
                 "code": 5
             },
-            "upd_time": "2025-07-14 11:13:07",
+            "upd_time": "2025-12-21 03:56:48",
             "downloads": [
                 "https://edgeone.update.pcl.mzmcos.tsxc.xyz//assets/1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6.zip"
             ],
-            "sha256": "36440ed2c80f4e00f0d97630cc454d0078f34689294540e997b4bb728a2d8295",
+            "sha256": "5490d1388560c72700dfed75a52e094863df4691ded62ae3684e578db49a0ded",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
         },
         {
@@ -21,40 +21,40 @@
                 "name": "v0.0.3",
                 "code": 5
             },
-            "upd_time": "2025-07-14 11:13:08",
+            "upd_time": "2025-12-21 03:56:48",
             "downloads": [
                 "https://edgeone.update.pcl.mzmcos.tsxc.xyz//assets/fe39e3f7099e579990cd787a6415faf1b59b9db38dcca3c385822583fc3b8de4.zip"
             ],
-            "sha256": "1a359e8ad9842e6f7e7e4060fff2a9af416c2224c433b5e0753435fbf0452560",
+            "sha256": "543d9cda6e38d4f9a91edb9edcbf872711b30ba288fd6b77f9634fe3e3e76a37",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
         },
         {
-            "file_name": "f60b426ec4d0cbd6e2f96fc0f476ec21030eb19266d447d5fa27a86abc891380.zip",
+            "file_name": "f34d97ba74bac30b524e42aefb57c96c3ead9b0de905fb49ffea8a4851499293.zip",
             "version": {
                 "channel": "frarm64",
-                "name": "0.1.0-beta.2",
-                "code": 7
+                "name": "v0.1.0-beta.1",
+                "code": 10
             },
-            "upd_time": "2025-07-14 11:13:10",
+            "upd_time": "2025-12-21 03:56:49",
             "downloads": [
-                "https://edgeone.update.pcl.mzmcos.tsxc.xyz//assets/f60b426ec4d0cbd6e2f96fc0f476ec21030eb19266d447d5fa27a86abc891380.zip"
+                "https://edgeone.update.pcl.mzmcos.tsxc.xyz//assets/f34d97ba74bac30b524e42aefb57c96c3ead9b0de905fb49ffea8a4851499293.zip"
             ],
-            "sha256": "1e02a9d07a8b4f8a3b3a739c71f34755297a0b3110568c4a032dc0d8a03e7b79",
-            "changelog": "### &nbsp;&nbsp;&nbsp;🚀 新功能\n\n- 用户登录 &nbsp;-&nbsp; by @tsxc-github [<samp>(9bc98)</samp>](https://github.com/tsxc-github/PCL2-CE/commit/9bc98e67)\n\n##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/tsxc-github/PCL2-CE/compare/0.1.0-beta.1...0.1.0-beta.2)"
+            "sha256": "46d14660252b7527e5f44db7305ab23fd866ff0cee7e88be505f167482017d4d",
+            "changelog": ""
         },
         {
-            "file_name": "5fff94d9ce4f6d4cd81f53df448b311594ff4f6dc723a33eaa631d1a0fac8833.zip",
+            "file_name": "7d1f5dbefa0c55b24bbed283e1cb875ecb097d50e74d3b53660482c71c0783ea.zip",
             "version": {
                 "channel": "frx64",
-                "name": "0.1.0-beta.2",
-                "code": 7
+                "name": "v0.1.0-beta.1",
+                "code": 10
             },
-            "upd_time": "2025-07-14 11:13:11",
+            "upd_time": "2025-12-21 03:56:50",
             "downloads": [
-                "https://edgeone.update.pcl.mzmcos.tsxc.xyz//assets/5fff94d9ce4f6d4cd81f53df448b311594ff4f6dc723a33eaa631d1a0fac8833.zip"
+                "https://edgeone.update.pcl.mzmcos.tsxc.xyz//assets/7d1f5dbefa0c55b24bbed283e1cb875ecb097d50e74d3b53660482c71c0783ea.zip"
             ],
-            "sha256": "6e85ef34cc0f273bb34b2a90c44cf8b64d7c6cd13109bfff42cd4916bdd84ce1",
-            "changelog": "### &nbsp;&nbsp;&nbsp;🚀 新功能\n\n- 用户登录 &nbsp;-&nbsp; by @tsxc-github [<samp>(9bc98)</samp>](https://github.com/tsxc-github/PCL2-CE/commit/9bc98e67)\n\n##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/tsxc-github/PCL2-CE/compare/0.1.0-beta.1...0.1.0-beta.2)"
+            "sha256": "07af1febfc60255ee421e7a5b2e530fcd45cc0db40acb61486bb9f786c22ed11",
+            "changelog": ""
         }
     ]
 }
