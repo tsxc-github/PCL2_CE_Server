@@ -1,0 +1,22 @@
+{
+    "assets": [
+        {
+            "file_name": "PCL2_CE_Release_ARM64.exe",
+            "version": {
+                "channel": "srarm64",
+                "name": "v0.0.3",
+                "code": 5
+            },
+            "upd_time": "2026-01-24 18:40:06",
+            "downloads": [
+                "https://aliyun.update.pcl.mzmcos.tsxc.xyz/static/raw/1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6.zip",
+                "https://edgeone.update.pcl.mzmcos.tsxc.xyz/static/raw/1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6.zip",
+                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/static/raw/1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6.zip",
+                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/static/raw/1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6.zip"
+            ],
+            "patches": [],
+            "sha256": "1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6",
+            "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
+        }
+    ]
+}
