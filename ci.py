@@ -14,18 +14,23 @@ channel_rules={
     "version":[],
     "sources": [
         {
+            "name": "Aliyun",
+            "url": "https://aliyun.update.pcl.mzmcos.tsxc.xyz",
+            "group": ["v2"]
+        },
+        {
             "name": "edgeone",
-            "url": "https://edgeone.update.pcl.mzmcos.tsxc.xyz/",
+            "url": "https://edgeone.update.pcl.mzmcos.tsxc.xyz",
             "group": ["v2"]
         },
         {
             "name": "CloudFlare",
-            "url": "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/",
+            "url": "https://cloudflare.update.pcl.mzmcos.tsxc.xyz",
             "group": ["v2"]
         },
         {
             "name": "GitHub",
-            "url": "https://github.com/PCL-Community/PCL2_CE_Server/raw/refs/heads/main",
+            "url": "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main",
             "group": ["v2"]
         }
     ],
