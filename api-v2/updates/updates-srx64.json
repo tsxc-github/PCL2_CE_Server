@@ -1,0 +1,21 @@
+{
+    "assets": [
+        {
+            "file_name": "PCL2_CE_Release_x64.exe",
+            "version": {
+                "channel": "srx64",
+                "name": "v0.0.3",
+                "code": 5
+            },
+            "upd_time": "2026-01-24 17:47:08",
+            "downloads": [
+                "https://edgeone.update.pcl.mzmcos.tsxc.xyz//static/raw/fe39e3f7099e579990cd787a6415faf1b59b9db38dcca3c385822583fc3b8de4.zip",
+                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz//static/raw/fe39e3f7099e579990cd787a6415faf1b59b9db38dcca3c385822583fc3b8de4.zip",
+                "https://github.com/PCL-Community/PCL2_CE_Server/raw/refs/heads/main/static/raw/fe39e3f7099e579990cd787a6415faf1b59b9db38dcca3c385822583fc3b8de4.zip"
+            ],
+            "patches": [],
+            "sha256": "fe39e3f7099e579990cd787a6415faf1b59b9db38dcca3c385822583fc3b8de4",
+            "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
+        }
+    ]
+}
