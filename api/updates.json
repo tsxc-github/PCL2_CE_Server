@@ -7,12 +7,12 @@
                 "name": "v0.0.3",
                 "code": 5
             },
-            "upd_time": "2026-01-24 17:47:08",
+            "upd_time": "2026-01-24 18:07:36",
             "downloads": [
-                "https://github.com/PCL-Community/PCL2_CE_Server/raw/refs/heads/main/assets/1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6.zip"
+                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6.zip"
             ],
             "patches": [],
-            "sha256": "83aa40c338876979495cdff83d4df1ff7e8082dadfdedcbac508d91bd102aab8",
+            "sha256": "c68229909f08947674b80166192404e77c3a921ae91683b34795ff1fde2d7699",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
         },
         {
@@ -22,12 +22,12 @@
                 "name": "v0.0.3",
                 "code": 5
             },
-            "upd_time": "2026-01-24 17:47:08",
+            "upd_time": "2026-01-24 18:07:36",
             "downloads": [
-                "https://github.com/PCL-Community/PCL2_CE_Server/raw/refs/heads/main/assets/fe39e3f7099e579990cd787a6415faf1b59b9db38dcca3c385822583fc3b8de4.zip"
+                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/fe39e3f7099e579990cd787a6415faf1b59b9db38dcca3c385822583fc3b8de4.zip"
             ],
             "patches": [],
-            "sha256": "cc8fb562c474aa8e9f4f2ee948b5579299595706c21fe6d12109c3cd3dae2d96",
+            "sha256": "5963d639817a2a7b3a2cf11ef2935ffb22d8b869b43b39a169dae9d99a9f92f1",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
         },
         {
@@ -37,12 +37,12 @@
                 "name": "v0.2.0-beta.1",
                 "code": 100
             },
-            "upd_time": "2026-01-24 17:47:09",
+            "upd_time": "2026-01-24 18:07:37",
             "downloads": [
-                "https://github.com/PCL-Community/PCL2_CE_Server/raw/refs/heads/main/assets/4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c.zip"
+                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c.zip"
             ],
             "patches": [],
-            "sha256": "1149d2a8e87b11d5a15da47553208040a0d11fb002c1adaef54319d949bbfaeb",
+            "sha256": "8952b926bbff7aec87f3f51230708a161b5ae1d12cfe08b06f517eaa297251a6",
             "changelog": "## 0.2.0-beta.1 更新一览(2025-12-21)\n\n### ⚙️ 其他小改动\n\n- 移除MirrorChyan相关工作流&修复CHANGELOG生成\n\n\n\n---\n\n[如果你有 Mirror 酱 CDK 可以直接使用此高速下载源](https://mirrorchyan.com/zh/projects?rid=PCL2-CE&source=pcl2ce-gh-release)\n你也可以直接在下方的 Assets 中下载\n"
         },
         {
@@ -52,12 +52,12 @@
                 "name": "v0.2.0-beta.1",
                 "code": 100
             },
-            "upd_time": "2026-01-24 17:47:09",
+            "upd_time": "2026-01-24 18:07:37",
             "downloads": [
-                "https://github.com/PCL-Community/PCL2_CE_Server/raw/refs/heads/main/assets/fae020c5712167f72674a2ac8590f7e1f25bc8b7ccf961d0a0288692c8c8924b.zip"
+                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/assets/fae020c5712167f72674a2ac8590f7e1f25bc8b7ccf961d0a0288692c8c8924b.zip"
             ],
             "patches": [],
-            "sha256": "b6cdd4511bc15e1b5160458feaffcef628a6c0cb61a821c3494787938fa05d5e",
+            "sha256": "fd65720725bcd4b019c77c9d74117042aa409fec4fa366255d5046cc8bf615b7",
             "changelog": "## 0.2.0-beta.1 更新一览(2025-12-21)\n\n### ⚙️ 其他小改动\n\n- 移除MirrorChyan相关工作流&修复CHANGELOG生成\n\n\n\n---\n\n[如果你有 Mirror 酱 CDK 可以直接使用此高速下载源](https://mirrorchyan.com/zh/projects?rid=PCL2-CE&source=pcl2ce-gh-release)\n你也可以直接在下方的 Assets 中下载\n"
         }
     ]
