@@ -116,7 +116,7 @@ def get_source_groups() -> list[str]:
 
 def update_source_cache_file_v2(group_name: str):
     cache_res: dict[str, str] = {}
-    current_source_api_folder = consts.OSS_UPLOAD_FOLDER.joinpath(f"api-{group_name}").resolve()
+    current_source_api_folder = consts.OSS_UPLOAD_FOLDER.joinpath(f"api{group_name}").resolve()
     current_source_api_update_folder = current_source_api_folder.joinpath("updates").resolve()
 
 
@@ -391,7 +391,7 @@ def start_release_file_process_v2(skip_check=False):
                     cur_source_file = AssetUpdateFileStruct(
                         assets=cur_assets
                     )
-                    target_path = consts.OSS_UPLOAD_FOLDER.joinpath(f"api-{item_source}").joinpath("updates").joinpath(f"updates-{current_channel_type}.json")
+                    target_path = consts.OSS_UPLOAD_FOLDER.joinpath(f"api{item_source}").joinpath("updates").joinpath(f"updates-{current_channel_type}.json")
                     if not target_path.parent.exists():
                         target_path.parent.mkdir(parents=True, exist_ok=True)
                     with open(target_path.as_posix(), "w+", encoding="utf-8") as f:
@@ -428,7 +428,7 @@ def start_announcement_file_process():
 
         update_source_cache_file_v1(source.name)
     for item_groups in get_source_groups():
-        current_source_announcement = consts.OSS_UPLOAD_FOLDER.joinpath(f"api-{item_groups}").joinpath("announcement.json").resolve()
+        current_source_announcement = consts.OSS_UPLOAD_FOLDER.joinpath(f"api{item_groups}").joinpath("announcement.json").resolve()
         if current_source_announcement.exists():
             current_source_announcement.unlink()
         logger.info(f"开始处理公告文件：{consts.RELEASE_ANNOUNCEMENT_PATH.as_posix()} -> {current_source_announcement.as_posix()}")
