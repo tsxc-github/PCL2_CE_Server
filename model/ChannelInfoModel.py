@@ -9,6 +9,7 @@ class ChannelInfoVersionModel(BaseModel):
 class ChannelSourceModel(BaseModel):
     name: str
     url: str
+    group: list[str]
 
 class ChannelInfoModel(BaseModel):
     version: list[ChannelInfoVersionModel]

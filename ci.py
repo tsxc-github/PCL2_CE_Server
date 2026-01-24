@@ -15,15 +15,18 @@ channel_rules={
     "sources": [
         {
             "name": "edgeone",
-            "url": "https://edgeone.update.pcl.mzmcos.tsxc.xyz/"
+            "url": "https://edgeone.update.pcl.mzmcos.tsxc.xyz/",
+            "group": ["v2"]
         },
         {
             "name": "CloudFlare",
-            "url": "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/"
+            "url": "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/",
+            "group": ["v2"]
         },
         {
             "name": "GitHub",
-            "url": "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main"
+            "url": "https://github.com/PCL-Community/PCL2_CE_Server/raw/refs/heads/main",
+            "group": ["v2"]
         }
     ],
     "file_name": "Plain Craft Launcher Community Edition.exe"

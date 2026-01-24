@@ -4,4 +4,6 @@ urllib3
 typing
 datetime
 uuid
+bsdiff4
+threadpool
 colorama

@@ -11,6 +11,7 @@ class AssetInfoModel(BaseModel):
     version: AssetVersionInfoModel
     upd_time: str
     downloads: list[str]
+    patches: list[str]
     sha256: str
     changelog: str
 

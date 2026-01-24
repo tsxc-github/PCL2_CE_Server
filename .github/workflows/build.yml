@@ -32,6 +32,15 @@ jobs:
         run: |
           python ./ci.py
 
+      - name: 处理目录结构
+        run: |
+          rm -rf .data/uploads_old/common
+          for dir in .data/uploads_old/*/; do
+              cp -r .data/uploads/* "$dir"
+          done
+          rm -rf .data/uploads
+          mv .data/uploads_old .data/uploads
+
       - name: 部署到 edgeone 分支
         uses: JamesIves/github-pages-deploy-action@v4
         with:
