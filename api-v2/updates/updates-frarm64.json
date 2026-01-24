@@ -7,11 +7,12 @@
                 "name": "v0.2.0-beta.1",
                 "code": 100
             },
-            "upd_time": "2026-01-24 17:47:09",
+            "upd_time": "2026-01-24 18:07:37",
             "downloads": [
-                "https://edgeone.update.pcl.mzmcos.tsxc.xyz//static/raw/4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c.zip",
-                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz//static/raw/4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c.zip",
-                "https://github.com/PCL-Community/PCL2_CE_Server/raw/refs/heads/main/static/raw/4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c.zip"
+                "https://aliyun.update.pcl.mzmcos.tsxc.xyz/static/raw/4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c.zip",
+                "https://edgeone.update.pcl.mzmcos.tsxc.xyz/static/raw/4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c.zip",
+                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/static/raw/4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c.zip",
+                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/static/raw/4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c.zip"
             ],
             "patches": [],
             "sha256": "4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c",
