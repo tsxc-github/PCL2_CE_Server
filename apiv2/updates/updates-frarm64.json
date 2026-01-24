@@ -1,0 +1,22 @@
+{
+    "assets": [
+        {
+            "file_name": "PCL2_CE_Beta_ARM64.exe",
+            "version": {
+                "channel": "frarm64",
+                "name": "v0.2.0-beta.1",
+                "code": 100
+            },
+            "upd_time": "2026-01-24 18:40:08",
+            "downloads": [
+                "https://aliyun.update.pcl.mzmcos.tsxc.xyz/static/raw/4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c.zip",
+                "https://edgeone.update.pcl.mzmcos.tsxc.xyz/static/raw/4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c.zip",
+                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/static/raw/4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c.zip",
+                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/static/raw/4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c.zip"
+            ],
+            "patches": [],
+            "sha256": "4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c",
+            "changelog": "## 0.2.0-beta.1 更新一览(2025-12-21)\n\n### ⚙️ 其他小改动\n\n- 移除MirrorChyan相关工作流&修复CHANGELOG生成\n\n\n\n---\n\n[如果你有 Mirror 酱 CDK 可以直接使用此高速下载源](https://mirrorchyan.com/zh/projects?rid=PCL2-CE&source=pcl2ce-gh-release)\n你也可以直接在下方的 Assets 中下载\n"
+        }
+    ]
+}

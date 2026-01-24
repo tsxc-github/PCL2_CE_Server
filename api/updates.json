@@ -7,12 +7,12 @@
                 "name": "v0.0.3",
                 "code": 5
             },
-            "upd_time": "2026-01-24 18:07:36",
+            "upd_time": "2026-01-24 18:40:06",
             "downloads": [
                 "https://edgeone.update.pcl.mzmcos.tsxc.xyz/assets/1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6.zip"
             ],
             "patches": [],
-            "sha256": "c68229909f08947674b80166192404e77c3a921ae91683b34795ff1fde2d7699",
+            "sha256": "0fa2ec74b236bf146004bd6235db3710473f1603f161e1aad6900fe644d3bb13",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
         },
         {
@@ -22,12 +22,12 @@
                 "name": "v0.0.3",
                 "code": 5
             },
-            "upd_time": "2026-01-24 18:07:36",
+            "upd_time": "2026-01-24 18:40:06",
             "downloads": [
                 "https://edgeone.update.pcl.mzmcos.tsxc.xyz/assets/fe39e3f7099e579990cd787a6415faf1b59b9db38dcca3c385822583fc3b8de4.zip"
             ],
             "patches": [],
-            "sha256": "5963d639817a2a7b3a2cf11ef2935ffb22d8b869b43b39a169dae9d99a9f92f1",
+            "sha256": "6bbe138c60d0ea35c6ced4dd2dc23209bb2bcde0c2f843ff8d891159988d3d00",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
         },
         {
@@ -37,12 +37,12 @@
                 "name": "v0.2.0-beta.1",
                 "code": 100
             },
-            "upd_time": "2026-01-24 18:07:37",
+            "upd_time": "2026-01-24 18:40:08",
             "downloads": [
                 "https://edgeone.update.pcl.mzmcos.tsxc.xyz/assets/4793c62624deb18201ee1f5553c30cb88fcd2d851b01820d354af0dca6f6810c.zip"
             ],
             "patches": [],
-            "sha256": "8952b926bbff7aec87f3f51230708a161b5ae1d12cfe08b06f517eaa297251a6",
+            "sha256": "a493a4a19512478a02e5422007e2579c4de3c0fcfbca3e56d7e40b0ab3a615e3",
             "changelog": "## 0.2.0-beta.1 更新一览(2025-12-21)\n\n### ⚙️ 其他小改动\n\n- 移除MirrorChyan相关工作流&修复CHANGELOG生成\n\n\n\n---\n\n[如果你有 Mirror 酱 CDK 可以直接使用此高速下载源](https://mirrorchyan.com/zh/projects?rid=PCL2-CE&source=pcl2ce-gh-release)\n你也可以直接在下方的 Assets 中下载\n"
         },
         {
@@ -52,12 +52,12 @@
                 "name": "v0.2.0-beta.1",
                 "code": 100
             },
-            "upd_time": "2026-01-24 18:07:37",
+            "upd_time": "2026-01-24 18:40:08",
             "downloads": [
                 "https://edgeone.update.pcl.mzmcos.tsxc.xyz/assets/fae020c5712167f72674a2ac8590f7e1f25bc8b7ccf961d0a0288692c8c8924b.zip"
             ],
             "patches": [],
-            "sha256": "fd65720725bcd4b019c77c9d74117042aa409fec4fa366255d5046cc8bf615b7",
+            "sha256": "e984c254cbc3650acc0813d1bc3884eb00b010299a8dff5d906053463dbab4a2",
             "changelog": "## 0.2.0-beta.1 更新一览(2025-12-21)\n\n### ⚙️ 其他小改动\n\n- 移除MirrorChyan相关工作流&修复CHANGELOG生成\n\n\n\n---\n\n[如果你有 Mirror 酱 CDK 可以直接使用此高速下载源](https://mirrorchyan.com/zh/projects?rid=PCL2-CE&source=pcl2ce-gh-release)\n你也可以直接在下方的 Assets 中下载\n"
         }
     ]
