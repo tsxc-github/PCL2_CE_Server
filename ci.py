@@ -45,6 +45,8 @@ def get_asset(prerelease: bool = False):
             print(f"Published at: {release['published_at']}")
             print(f"Assets:")
             for asset in release["assets"]:
+                if asset['name'].endswith(".exe") == False:
+                    continue
                 print(f" - {asset['name']} ({asset['size']} bytes)")
                 os.system(f"""
                     curl -L \
@@ -118,6 +120,7 @@ def get_asset(prerelease: bool = False):
     if prerelease == False:
         get_asset(prerelease=True)
     
+
 get_asset()
     
 
