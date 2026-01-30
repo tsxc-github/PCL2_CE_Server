@@ -69,7 +69,11 @@ def get_asset(prerelease: bool = False):
             version_code = 0
             
             if os.path.exists("./code/"+folders[0]+"/Plain Craft Launcher 2/metadata.json"):
-                code=open("./code/"+folders[0]+"/Plain Craft Launcher 2/metadata.json","r",encoding="utf-8").read()
+                with open("./code/"+folders[0]+"/Plain Craft Launcher 2/metadata.json","rb") as f:
+                    code_bytes = f.read()
+                if code_bytes.startswith((b'\xef\xbb\xbf', b'\xfe\xff', b'\xff\xfe')):
+                    code_bytes = code_bytes[3:]  # Remove BOM
+                code = code_bytes.decode('utf-8')
                 metadata = json.loads(code)
                 version_code = int(metadata["version"]["code"])
             else:
