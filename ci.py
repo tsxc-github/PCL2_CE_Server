@@ -65,13 +65,21 @@ def get_asset(prerelease: bool = False):
             os.system("mkdir code")
             os.system("tar -xzf code.tar.gz -C ./code")
             folders = [entry for entry in os.listdir("./code") if os.path.isdir("./code/"+entry)]
-            code=open("./code/"+folders[0]+"/Plain Craft Launcher 2/Modules/Base/ModBase.vb","r",encoding="utf-8").read()
-            shutil.rmtree("./code")
             
-            pattern = r"Public Const VersionCode As Integer = \d+ '内部版本号"
-            re.search(pattern, code)
-            version_code = re.search(pattern, code).group(0)
-            version_code = int(re.search(r"\d+", version_code).group(0))
+            version_code = 0
+            
+            if os.path.exists("./code/"+folders[0]+"/Plain Craft Launcher 2/metadata.json"):
+                code=open("./code/"+folders[0]+"/Plain Craft Launcher 2/metadata.json","r",encoding="utf-8").read()
+                metadata = json.loads(code)
+                version_code = int(metadata["version"]["code"])
+            else:
+                code=open("./code/"+folders[0]+"/Plain Craft Launcher 2/Modules/Base/ModBase.vb","r",encoding="utf-8").read()
+                shutil.rmtree("./code")
+                pattern = r"Public Const VersionCode As Integer = \d+ '内部版本号"
+                re.search(pattern, code)
+                version_code = re.search(pattern, code).group(0)
+                version_code = int(re.search(r"\d+", version_code).group(0))
+                
             print(f" - Version Code: {version_code}")
             
             channel_rules["version"].append(
