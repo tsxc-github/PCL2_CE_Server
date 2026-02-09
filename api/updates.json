@@ -7,12 +7,12 @@
                 "name": "v0.0.3",
                 "code": 5
             },
-            "upd_time": "2026-02-08 09:11:58",
+            "upd_time": "2026-02-09 15:13:21",
             "downloads": [
                 "https://edgeone.update.pcl.mzmcos.tsxc.xyz/assets/1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6.zip"
             ],
             "patches": [],
-            "sha256": "bbe46f7aa2d622fc1292b0e2b7e23e7d053fc4e9c4e270b0e47c80ed8a4de30d",
+            "sha256": "0b952c74a7a05a2d38d0c788a5dca5621ca8f7380ce8438e19cb5cd3a4a0e1a3",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
         },
         {
@@ -22,43 +22,43 @@
                 "name": "v0.0.3",
                 "code": 5
             },
-            "upd_time": "2026-02-08 09:11:58",
+            "upd_time": "2026-02-09 15:13:22",
             "downloads": [
                 "https://edgeone.update.pcl.mzmcos.tsxc.xyz/assets/fe39e3f7099e579990cd787a6415faf1b59b9db38dcca3c385822583fc3b8de4.zip"
             ],
             "patches": [],
-            "sha256": "ca44f14b426df2abecc0aa570ee3750679814554d52fdde1a78e664285bba66f",
+            "sha256": "319a9574cabdff85194c71beecc2d87fccb095f3b44a35706c8f01e5044ee695",
             "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
         },
         {
-            "file_name": "1958e00f5eeb214c93e3091856396476aa5ba79bb8e5c11a34a1fcf0245f19f8.zip",
+            "file_name": "d31f079115146690b27b26f9f3d066e39a3dfcbaf63a347fbde4ee09585433ba.zip",
             "version": {
                 "channel": "frarm64",
-                "name": "0.3.0-beta.3",
-                "code": 103
+                "name": "v0.3.0-beta.4",
+                "code": 104
             },
-            "upd_time": "2026-02-08 09:11:59",
+            "upd_time": "2026-02-09 15:13:24",
             "downloads": [
-                "https://edgeone.update.pcl.mzmcos.tsxc.xyz/assets/1958e00f5eeb214c93e3091856396476aa5ba79bb8e5c11a34a1fcf0245f19f8.zip"
+                "https://edgeone.update.pcl.mzmcos.tsxc.xyz/assets/d31f079115146690b27b26f9f3d066e39a3dfcbaf63a347fbde4ee09585433ba.zip"
             ],
             "patches": [],
-            "sha256": "1bf87a5b14f3e192d207fb019060feebe07edae500f8bbc18787d86d4b6ec19d",
-            "changelog": "## 0.3.0-beta.3 更新一览(2026-02-08)\n\n### 🚀 新功能\n\n- *auth*: 巨大更新！支持MZMC登录！\n\n\n### ⚙️ 其他小改动\n\n- 修改注册表文件夹名称为PCLCE_MZMC\n\n- DEBUG模式下禁用遥测\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n\n---\n\n[GPG 签名公钥](https://github.com/tsxc-github/PCL2-CE/blob/mzmc-dev/GPG-PUBLIC-KEY.asc)\n公钥指纹 `BCA99F1A4D1D1EE772BEA6B9027A48941D904CE6`\n## 2.14.1 更新一览(2026-02-04)\n\n### 🐛 问题修复\n\n- 为游戏修改渲染器逻辑添加 null 检测 (#2341)\n\n- *comp*: AllDrops 可能会导致 null 异常\n\n- *comp*: AllDrops 还存在一处 null 问题\n\n- *comp*: 流位置问题导致的数据库加载失败\n\n- *mc-install*: Forge 选中后无法直接修改选中项\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n\n---\n\n[GPG 签名公钥](https://github.com/tsxc-github/PCL2-CE/blob/mzmc-dev/GPG-PUBLIC-KEY.asc)\n公钥指纹 `BCA99F1A4D1D1EE772BEA6B9027A48941D904CE6`\n"
+            "sha256": "b07a8f4eef895e69cb18e2b73fa5687f26853b42aad0270290e3735ea253c884",
+            "changelog": "## 0.3.0-beta.4 更新一览(2026-02-09)\n\n### 🐛 问题修复\n\n- 修复启动无法获取到serverurl的问题\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n\n---\n\n[GPG 签名公钥](https://github.com/tsxc-github/PCL2-CE/blob/mzmc-dev/GPG-PUBLIC-KEY.asc)\n公钥指纹 `BCA99F1A4D1D1EE772BEA6B9027A48941D904CE6`\n"
         },
         {
-            "file_name": "d6d9c3fcbf2372eda8347f8e6890d4a6f696dedf4db65aa5a20457db228a736b.zip",
+            "file_name": "ac04e9fae49333396fad5f64475c9cb639cb727e0fc815e527c146152b9e089e.zip",
             "version": {
                 "channel": "frx64",
-                "name": "0.3.0-beta.3",
-                "code": 103
+                "name": "v0.3.0-beta.4",
+                "code": 104
             },
-            "upd_time": "2026-02-08 09:12:00",
+            "upd_time": "2026-02-09 15:13:24",
             "downloads": [
-                "https://edgeone.update.pcl.mzmcos.tsxc.xyz/assets/d6d9c3fcbf2372eda8347f8e6890d4a6f696dedf4db65aa5a20457db228a736b.zip"
+                "https://edgeone.update.pcl.mzmcos.tsxc.xyz/assets/ac04e9fae49333396fad5f64475c9cb639cb727e0fc815e527c146152b9e089e.zip"
             ],
             "patches": [],
-            "sha256": "a85da7490d684541445235c55fa12937792e7ac3364424e8ba9580ba5e3ab716",
-            "changelog": "## 0.3.0-beta.3 更新一览(2026-02-08)\n\n### 🚀 新功能\n\n- *auth*: 巨大更新！支持MZMC登录！\n\n\n### ⚙️ 其他小改动\n\n- 修改注册表文件夹名称为PCLCE_MZMC\n\n- DEBUG模式下禁用遥测\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n\n---\n\n[GPG 签名公钥](https://github.com/tsxc-github/PCL2-CE/blob/mzmc-dev/GPG-PUBLIC-KEY.asc)\n公钥指纹 `BCA99F1A4D1D1EE772BEA6B9027A48941D904CE6`\n## 2.14.1 更新一览(2026-02-04)\n\n### 🐛 问题修复\n\n- 为游戏修改渲染器逻辑添加 null 检测 (#2341)\n\n- *comp*: AllDrops 可能会导致 null 异常\n\n- *comp*: AllDrops 还存在一处 null 问题\n\n- *comp*: 流位置问题导致的数据库加载失败\n\n- *mc-install*: Forge 选中后无法直接修改选中项\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n\n---\n\n[GPG 签名公钥](https://github.com/tsxc-github/PCL2-CE/blob/mzmc-dev/GPG-PUBLIC-KEY.asc)\n公钥指纹 `BCA99F1A4D1D1EE772BEA6B9027A48941D904CE6`\n"
+            "sha256": "8999f62ba0d496d94bbb39c03a87500abad910f4f4f71bd9c9f6b38c3f249e5b",
+            "changelog": "## 0.3.0-beta.4 更新一览(2026-02-09)\n\n### 🐛 问题修复\n\n- 修复启动无法获取到serverurl的问题\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n\n---\n\n[GPG 签名公钥](https://github.com/tsxc-github/PCL2-CE/blob/mzmc-dev/GPG-PUBLIC-KEY.asc)\n公钥指纹 `BCA99F1A4D1D1EE772BEA6B9027A48941D904CE6`\n"
         }
     ]
 }
