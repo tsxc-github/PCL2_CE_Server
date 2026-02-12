@@ -1,34 +1,34 @@
 {
     "assets": [
         {
-            "file_name": "1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6.zip",
+            "file_name": "05785860455739e7d965bdd2a99102f8d76d72b19cdf772de30582002d46a2bd.zip",
             "version": {
                 "channel": "srarm64",
-                "name": "v0.0.3",
-                "code": 5
+                "name": "v1.0.0",
+                "code": 105
             },
-            "upd_time": "2026-02-09 15:13:21",
+            "upd_time": "2026-02-12 17:09:36",
             "downloads": [
-                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/assets/1f6641677b83190650edf9e0c7ad17b0f479032d6a3940b308e7e67e8808b1f6.zip"
+                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/assets/05785860455739e7d965bdd2a99102f8d76d72b19cdf772de30582002d46a2bd.zip"
             ],
             "patches": [],
-            "sha256": "0b952c74a7a05a2d38d0c788a5dca5621ca8f7380ce8438e19cb5cd3a4a0e1a3",
-            "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
+            "sha256": "7c292fa84ccea1243712f62ade7be223319e27bd9f60ceffee2675d9861800bc",
+            "changelog": "## 1.0.0 更新一览(2026-02-12)\n\n### 🚀 新功能\n\n- 添加游戏窗口标题预设 (#2344)\n\n- *cli*: Add support for command line tools (#2346)\n\n- *download*: 下载模组时提供模组加载器筛选\n\n- *encryption*: 加解密失败后默认使用默认值而非崩溃 (#2391)\n\n- *renderer*: Bump mesa loader windows to 25.3.5 (#2398)\n\n- 修改Telemetry为Tag添加，方便统计数据处理\n\n- 关闭社区版提示\n\n\n### 🐛 问题修复\n\n- *java*: 修复路径查找对于操作耗时的驱动器的访问顺序 (#2356)\n\n- *log-service*: 修正日志导出引导信息 (#2372)\n\n- *java*: 搜索部分可能存在锁问题 (#2373)\n\n- *telemetry*: 修复数据调查由于错误的异步处理可能发送失败 (#2381)\n\n- *dns*: 存在可能的未观测异常抛出 (#2380)\n\n- *pipe-comm*: 修复命名管道无法第二次等待连接 (#2390)\n\n- *drag*: 文件拖拽修复 (#2395)\n\n- *download*: 修复资源页 MyRadioButton 的转换问题 (#2393)\n\n- *auth*: 修复离线登录无法使用的问题\n\n- *setup-ui*: 修复设置页面侧边栏小标题不会被隐藏 (#2371)\n\n\n### 🚜 重构\n\n- *PipeComm*: 重构PipeComm (#2318)\n\n\n### ⚡ 性能优化\n\n- Add some invalid string (#2394)\n\n\n### ⚙️ 其他小改动\n\n- *hints*: Add luotianyi\n\n- *hints*: Add hatsune miku\n\n- 更新 GitHub Issues 模板\n\n- *setup-update*: 调整要求的 .net 版本 (#2375)\n\n- Remove unused module\n\n- Fix some warning in FormMain.xaml\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n\n---\n\n[GPG 签名公钥](https://github.com/tsxc-github/PCL2-CE/blob/mzmc-dev/GPG-PUBLIC-KEY.asc)\n公钥指纹 `BCA99F1A4D1D1EE772BEA6B9027A48941D904CE6`\n"
         },
         {
-            "file_name": "fe39e3f7099e579990cd787a6415faf1b59b9db38dcca3c385822583fc3b8de4.zip",
+            "file_name": "c9c3753534d5b92d85cd85483350e8f3aff6ab219bf34ef302abb1eb42ac2d77.zip",
             "version": {
                 "channel": "srx64",
-                "name": "v0.0.3",
-                "code": 5
+                "name": "v1.0.0",
+                "code": 105
             },
-            "upd_time": "2026-02-09 15:13:22",
+            "upd_time": "2026-02-12 17:09:36",
             "downloads": [
-                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/assets/fe39e3f7099e579990cd787a6415faf1b59b9db38dcca3c385822583fc3b8de4.zip"
+                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/assets/c9c3753534d5b92d85cd85483350e8f3aff6ab219bf34ef302abb1eb42ac2d77.zip"
             ],
             "patches": [],
-            "sha256": "319a9574cabdff85194c71beecc2d87fccb095f3b44a35706c8f01e5044ee695",
-            "changelog": "**Full Changelog**: https://github.com/tsxc-github/PCL2-CE/compare/v0.0.2...v0.0.3"
+            "sha256": "fec61c9fa8eb85e059546b918b466be354fa412fcf895d7a7daff2eb7c12b3f8",
+            "changelog": "## 1.0.0 更新一览(2026-02-12)\n\n### 🚀 新功能\n\n- 添加游戏窗口标题预设 (#2344)\n\n- *cli*: Add support for command line tools (#2346)\n\n- *download*: 下载模组时提供模组加载器筛选\n\n- *encryption*: 加解密失败后默认使用默认值而非崩溃 (#2391)\n\n- *renderer*: Bump mesa loader windows to 25.3.5 (#2398)\n\n- 修改Telemetry为Tag添加，方便统计数据处理\n\n- 关闭社区版提示\n\n\n### 🐛 问题修复\n\n- *java*: 修复路径查找对于操作耗时的驱动器的访问顺序 (#2356)\n\n- *log-service*: 修正日志导出引导信息 (#2372)\n\n- *java*: 搜索部分可能存在锁问题 (#2373)\n\n- *telemetry*: 修复数据调查由于错误的异步处理可能发送失败 (#2381)\n\n- *dns*: 存在可能的未观测异常抛出 (#2380)\n\n- *pipe-comm*: 修复命名管道无法第二次等待连接 (#2390)\n\n- *drag*: 文件拖拽修复 (#2395)\n\n- *download*: 修复资源页 MyRadioButton 的转换问题 (#2393)\n\n- *auth*: 修复离线登录无法使用的问题\n\n- *setup-ui*: 修复设置页面侧边栏小标题不会被隐藏 (#2371)\n\n\n### 🚜 重构\n\n- *PipeComm*: 重构PipeComm (#2318)\n\n\n### ⚡ 性能优化\n\n- Add some invalid string (#2394)\n\n\n### ⚙️ 其他小改动\n\n- *hints*: Add luotianyi\n\n- *hints*: Add hatsune miku\n\n- 更新 GitHub Issues 模板\n\n- *setup-update*: 调整要求的 .net 版本 (#2375)\n\n- Remove unused module\n\n- Fix some warning in FormMain.xaml\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n\n---\n\n[GPG 签名公钥](https://github.com/tsxc-github/PCL2-CE/blob/mzmc-dev/GPG-PUBLIC-KEY.asc)\n公钥指纹 `BCA99F1A4D1D1EE772BEA6B9027A48941D904CE6`\n"
         },
         {
             "file_name": "d31f079115146690b27b26f9f3d066e39a3dfcbaf63a347fbde4ee09585433ba.zip",
@@ -37,12 +37,12 @@
                 "name": "v0.3.0-beta.4",
                 "code": 104
             },
-            "upd_time": "2026-02-09 15:13:24",
+            "upd_time": "2026-02-12 17:09:39",
             "downloads": [
                 "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/assets/d31f079115146690b27b26f9f3d066e39a3dfcbaf63a347fbde4ee09585433ba.zip"
             ],
             "patches": [],
-            "sha256": "b07a8f4eef895e69cb18e2b73fa5687f26853b42aad0270290e3735ea253c884",
+            "sha256": "00ce8d499c06fceb1f0db186ad8052c10c79423a8b2551831b24667743c2725d",
             "changelog": "## 0.3.0-beta.4 更新一览(2026-02-09)\n\n### 🐛 问题修复\n\n- 修复启动无法获取到serverurl的问题\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n\n---\n\n[GPG 签名公钥](https://github.com/tsxc-github/PCL2-CE/blob/mzmc-dev/GPG-PUBLIC-KEY.asc)\n公钥指纹 `BCA99F1A4D1D1EE772BEA6B9027A48941D904CE6`\n"
         },
         {
@@ -52,12 +52,12 @@
                 "name": "v0.3.0-beta.4",
                 "code": 104
             },
-            "upd_time": "2026-02-09 15:13:24",
+            "upd_time": "2026-02-12 17:09:39",
             "downloads": [
                 "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/assets/ac04e9fae49333396fad5f64475c9cb639cb727e0fc815e527c146152b9e089e.zip"
             ],
             "patches": [],
-            "sha256": "8999f62ba0d496d94bbb39c03a87500abad910f4f4f71bd9c9f6b38c3f249e5b",
+            "sha256": "7afb900267eabe75f0fc91f4cb2af97f50950823762c72c76b04c5d0e760167b",
             "changelog": "## 0.3.0-beta.4 更新一览(2026-02-09)\n\n### 🐛 问题修复\n\n- 修复启动无法获取到serverurl的问题\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n\n---\n\n[GPG 签名公钥](https://github.com/tsxc-github/PCL2-CE/blob/mzmc-dev/GPG-PUBLIC-KEY.asc)\n公钥指纹 `BCA99F1A4D1D1EE772BEA6B9027A48941D904CE6`\n"
         }
     ]
