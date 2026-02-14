@@ -5,9 +5,9 @@
             "version": {
                 "channel": "frarm64",
                 "name": "v0.3.0-beta.4",
-                "code": 104
+                "code": 106
             },
-            "upd_time": "2026-02-12 17:09:39",
+            "upd_time": "2026-02-14 17:37:26",
             "downloads": [
                 "https://aliyun.update.pcl.mzmcos.tsxc.xyz/static/raw/d31f079115146690b27b26f9f3d066e39a3dfcbaf63a347fbde4ee09585433ba.zip",
                 "https://edgeone.update.pcl.mzmcos.tsxc.xyz/static/raw/d31f079115146690b27b26f9f3d066e39a3dfcbaf63a347fbde4ee09585433ba.zip",
