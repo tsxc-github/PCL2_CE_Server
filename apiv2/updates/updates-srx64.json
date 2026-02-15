@@ -4,19 +4,19 @@
             "file_name": "PCL2_CE_Release_x64.exe",
             "version": {
                 "channel": "srx64",
-                "name": "v1.0.0",
-                "code": 106
+                "name": "v1.0.1",
+                "code": 107
             },
-            "upd_time": "2026-02-14 17:37:25",
+            "upd_time": "2026-02-15 05:30:30",
             "downloads": [
-                "https://aliyun.update.pcl.mzmcos.tsxc.xyz/static/raw/4ba81d02ca26f7da7fed2e7a57a32daa7e97c638d9907805c1abc7322092d72a.zip",
-                "https://edgeone.update.pcl.mzmcos.tsxc.xyz/static/raw/4ba81d02ca26f7da7fed2e7a57a32daa7e97c638d9907805c1abc7322092d72a.zip",
-                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/static/raw/4ba81d02ca26f7da7fed2e7a57a32daa7e97c638d9907805c1abc7322092d72a.zip",
-                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/static/raw/4ba81d02ca26f7da7fed2e7a57a32daa7e97c638d9907805c1abc7322092d72a.zip"
+                "https://aliyun.update.pcl.mzmcos.tsxc.xyz/static/raw/cc905f8015c609df3a9736c48066b8a42a49668be89abbbd26d31fcad33821a3.zip",
+                "https://edgeone.update.pcl.mzmcos.tsxc.xyz/static/raw/cc905f8015c609df3a9736c48066b8a42a49668be89abbbd26d31fcad33821a3.zip",
+                "https://cloudflare.update.pcl.mzmcos.tsxc.xyz/static/raw/cc905f8015c609df3a9736c48066b8a42a49668be89abbbd26d31fcad33821a3.zip",
+                "https://github.com/tsxc-github/PCL2_CE_Server/raw/refs/heads/main/static/raw/cc905f8015c609df3a9736c48066b8a42a49668be89abbbd26d31fcad33821a3.zip"
             ],
             "patches": [],
-            "sha256": "4ba81d02ca26f7da7fed2e7a57a32daa7e97c638d9907805c1abc7322092d72a",
-            "changelog": "## 1.0.0 更新一览(2026-02-14)\n\n### 🚀 新功能\n\n- 添加游戏窗口标题预设 (#2344)\n\n- *cli*: Add support for command line tools (#2346)\n\n- *download*: 下载模组时提供模组加载器筛选\n\n- *encryption*: 加解密失败后默认使用默认值而非崩溃 (#2391)\n\n- *renderer*: Bump mesa loader windows to 25.3.5 (#2398)\n\n- 修改Telemetry为Tag添加，方便统计数据处理\n\n- 关闭社区版提示\n\n\n### 🐛 问题修复\n\n- *java*: 修复路径查找对于操作耗时的驱动器的访问顺序 (#2356)\n\n- *log-service*: 修正日志导出引导信息 (#2372)\n\n- *java*: 搜索部分可能存在锁问题 (#2373)\n\n- *telemetry*: 修复数据调查由于错误的异步处理可能发送失败 (#2381)\n\n- *dns*: 存在可能的未观测异常抛出 (#2380)\n\n- *pipe-comm*: 修复命名管道无法第二次等待连接 (#2390)\n\n- *drag*: 文件拖拽修复 (#2395)\n\n- *download*: 修复资源页 MyRadioButton 的转换问题 (#2393)\n\n- *auth*: 修复离线登录无法使用的问题\n\n- *setup-ui*: 修复设置页面侧边栏小标题不会被隐藏 (#2371)\n\n\n### 🚜 重构\n\n- *PipeComm*: 重构PipeComm (#2318)\n\n\n### ⚡ 性能优化\n\n- Add some invalid string (#2394)\n\n\n### ⚙️ 其他小改动\n\n- *hints*: Add luotianyi\n\n- *hints*: Add hatsune miku\n\n- 更新 GitHub Issues 模板\n\n- *setup-update*: 调整要求的 .net 版本 (#2375)\n\n- Remove unused module\n\n- Fix some warning in FormMain.xaml\n\n- 更新终结点地址\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n\n---\n\n[GPG 签名公钥](https://github.com/tsxc-github/PCL2-CE/blob/mzmc-dev/GPG-PUBLIC-KEY.asc)\n公钥指纹 `BCA99F1A4D1D1EE772BEA6B9027A48941D904CE6`\n"
+            "sha256": "cc905f8015c609df3a9736c48066b8a42a49668be89abbbd26d31fcad33821a3",
+            "changelog": "## 1.0.1 更新一览(2026-02-15)\n\n### 🚀 新功能\n\n- *link*: Add new EasyTier public servers (#2409)\n\n- Basic IoC implementation based on source generation (#2370)\n\n\n### 🐛 问题修复\n\n- *java*: 发行版选择可能会选择较差的 Java (#2413)\n\n- *update*: 修复更新问题，龙猫屎山又发力了\n\n\n### ⚙️ 其他小改动\n\n- Remove unused file cache service\n\n- *docs*: 为 README.md 添加 EN 和 ZH_TW 翻译 (#2397)\n\n\n\n---\n\n你也可以直接在下方的 Assets 中下载\n\n---\n\n[GPG 签名公钥](https://github.com/tsxc-github/PCL2-CE/blob/mzmc-dev/GPG-PUBLIC-KEY.asc)\n公钥指纹 `BCA99F1A4D1D1EE772BEA6B9027A48941D904CE6`\n"
         }
     ]
 }
